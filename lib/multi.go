@@ -5,15 +5,15 @@ import (
 	"time"
 
 	"github.com/logrusorgru/aurora"
-	"github.com/projectdiscovery/nuclei/v3/pkg/catalog/loader"
-	"github.com/projectdiscovery/nuclei/v3/pkg/core"
-	"github.com/projectdiscovery/nuclei/v3/pkg/input/provider"
-	"github.com/projectdiscovery/nuclei/v3/pkg/loader/workflow"
-	"github.com/projectdiscovery/nuclei/v3/pkg/output"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols"
-	"github.com/projectdiscovery/nuclei/v3/pkg/types"
 	"github.com/projectdiscovery/ratelimit"
 	errorutil "github.com/projectdiscovery/utils/errors"
+	"github.com/scottdharvey/nuclei/v3/pkg/catalog/loader"
+	"github.com/scottdharvey/nuclei/v3/pkg/core"
+	"github.com/scottdharvey/nuclei/v3/pkg/input/provider"
+	"github.com/scottdharvey/nuclei/v3/pkg/loader/workflow"
+	"github.com/scottdharvey/nuclei/v3/pkg/output"
+	"github.com/scottdharvey/nuclei/v3/pkg/protocols"
+	"github.com/scottdharvey/nuclei/v3/pkg/types"
 )
 
 // unsafeOptions are those nuclei objects/instances/types

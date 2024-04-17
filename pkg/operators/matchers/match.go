@@ -10,9 +10,9 @@ import (
 
 	dslRepo "github.com/projectdiscovery/dsl"
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/nuclei/v3/pkg/operators/common/dsl"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/expressions"
 	stringsutil "github.com/projectdiscovery/utils/strings"
+	"github.com/scottdharvey/nuclei/v3/pkg/operators/common/dsl"
+	"github.com/scottdharvey/nuclei/v3/pkg/protocols/common/expressions"
 )
 
 var (

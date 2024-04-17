@@ -6,10 +6,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/projectdiscovery/nuclei/v3/pkg/output"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/contextargs"
+	"github.com/scottdharvey/nuclei/v3/pkg/output"
+	"github.com/scottdharvey/nuclei/v3/pkg/protocols/common/contextargs"
 )
-
 
 type ScanContextOption func(*ScanContext)
 

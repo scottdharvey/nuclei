@@ -5,8 +5,8 @@ import (
 	"net/http"
 
 	"github.com/projectdiscovery/httpx/common/httpx"
-	"github.com/projectdiscovery/nuclei/v3/pkg/input/types"
 	"github.com/projectdiscovery/useragent"
+	"github.com/scottdharvey/nuclei/v3/pkg/input/types"
 )
 
 var (

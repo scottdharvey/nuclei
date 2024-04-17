@@ -6,14 +6,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/projectdiscovery/nuclei/v3/pkg/catalog/config"
-	"github.com/projectdiscovery/nuclei/v3/pkg/catalog/disk"
-	"github.com/projectdiscovery/nuclei/v3/pkg/loader/workflow"
-	"github.com/projectdiscovery/nuclei/v3/pkg/progress"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols"
-	"github.com/projectdiscovery/nuclei/v3/pkg/templates"
-	"github.com/projectdiscovery/nuclei/v3/pkg/testutils"
 	"github.com/projectdiscovery/ratelimit"
+	"github.com/scottdharvey/nuclei/v3/pkg/catalog/config"
+	"github.com/scottdharvey/nuclei/v3/pkg/catalog/disk"
+	"github.com/scottdharvey/nuclei/v3/pkg/loader/workflow"
+	"github.com/scottdharvey/nuclei/v3/pkg/progress"
+	"github.com/scottdharvey/nuclei/v3/pkg/protocols"
+	"github.com/scottdharvey/nuclei/v3/pkg/templates"
+	"github.com/scottdharvey/nuclei/v3/pkg/testutils"
 	"github.com/stretchr/testify/require"
 )
 

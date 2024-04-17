@@ -8,9 +8,9 @@ import (
 	"sync"
 
 	"github.com/pkg/errors"
-	"github.com/projectdiscovery/nuclei/v3/pkg/catalog/config"
-	"github.com/projectdiscovery/nuclei/v3/pkg/output"
 	"github.com/projectdiscovery/sarif"
+	"github.com/scottdharvey/nuclei/v3/pkg/catalog/config"
+	"github.com/scottdharvey/nuclei/v3/pkg/output"
 )
 
 // Exporter is an exporter for nuclei sarif output format.

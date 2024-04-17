@@ -6,15 +6,15 @@ import (
 	"strings"
 
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/nuclei/v3/pkg/model"
-	"github.com/projectdiscovery/nuclei/v3/pkg/operators"
-	"github.com/projectdiscovery/nuclei/v3/pkg/output"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/helpers/writer"
-	"github.com/projectdiscovery/nuclei/v3/pkg/scan"
-	"github.com/projectdiscovery/nuclei/v3/pkg/templates/types"
 	cryptoutil "github.com/projectdiscovery/utils/crypto"
 	mapsutil "github.com/projectdiscovery/utils/maps"
+	"github.com/scottdharvey/nuclei/v3/pkg/model"
+	"github.com/scottdharvey/nuclei/v3/pkg/operators"
+	"github.com/scottdharvey/nuclei/v3/pkg/output"
+	"github.com/scottdharvey/nuclei/v3/pkg/protocols"
+	"github.com/scottdharvey/nuclei/v3/pkg/protocols/common/helpers/writer"
+	"github.com/scottdharvey/nuclei/v3/pkg/scan"
+	"github.com/scottdharvey/nuclei/v3/pkg/templates/types"
 )
 
 // Cluster clusters a list of templates into a lesser number if possible based

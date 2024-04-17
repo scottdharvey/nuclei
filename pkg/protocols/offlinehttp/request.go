@@ -8,15 +8,15 @@ import (
 	"github.com/pkg/errors"
 
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/nuclei/v3/pkg/output"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/contextargs"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/generators"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/helpers/eventcreator"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/utils"
-	templateTypes "github.com/projectdiscovery/nuclei/v3/pkg/templates/types"
 	"github.com/projectdiscovery/utils/conversion"
 	syncutil "github.com/projectdiscovery/utils/sync"
+	"github.com/scottdharvey/nuclei/v3/pkg/output"
+	"github.com/scottdharvey/nuclei/v3/pkg/protocols"
+	"github.com/scottdharvey/nuclei/v3/pkg/protocols/common/contextargs"
+	"github.com/scottdharvey/nuclei/v3/pkg/protocols/common/generators"
+	"github.com/scottdharvey/nuclei/v3/pkg/protocols/common/helpers/eventcreator"
+	"github.com/scottdharvey/nuclei/v3/pkg/protocols/utils"
+	templateTypes "github.com/scottdharvey/nuclei/v3/pkg/templates/types"
 )
 
 var _ protocols.Request = &Request{}

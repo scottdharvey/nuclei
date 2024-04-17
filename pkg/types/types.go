@@ -8,13 +8,13 @@ import (
 	"time"
 
 	"github.com/projectdiscovery/goflags"
-	"github.com/projectdiscovery/nuclei/v3/pkg/catalog"
-	"github.com/projectdiscovery/nuclei/v3/pkg/catalog/config"
-	"github.com/projectdiscovery/nuclei/v3/pkg/model/types/severity"
-	"github.com/projectdiscovery/nuclei/v3/pkg/templates/types"
 	errorutil "github.com/projectdiscovery/utils/errors"
 	fileutil "github.com/projectdiscovery/utils/file"
 	folderutil "github.com/projectdiscovery/utils/folder"
+	"github.com/scottdharvey/nuclei/v3/pkg/catalog"
+	"github.com/scottdharvey/nuclei/v3/pkg/catalog/config"
+	"github.com/scottdharvey/nuclei/v3/pkg/model/types/severity"
+	"github.com/scottdharvey/nuclei/v3/pkg/templates/types"
 )
 
 var (

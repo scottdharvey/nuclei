@@ -1,6 +1,6 @@
 package main
 
-import nuclei "github.com/projectdiscovery/nuclei/v3/lib"
+import nuclei "github.com/scottdharvey/nuclei/v3/lib"
 
 func main() {
 	ne, err := nuclei.NewNucleiEngine(

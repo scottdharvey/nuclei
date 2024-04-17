@@ -14,17 +14,17 @@ import (
 	"gopkg.in/yaml.v2"
 
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/nuclei/v3/pkg/catalog/config"
-	"github.com/projectdiscovery/nuclei/v3/pkg/js/compiler"
-	"github.com/projectdiscovery/nuclei/v3/pkg/operators"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/generators"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/offlinehttp"
-	"github.com/projectdiscovery/nuclei/v3/pkg/templates/signer"
-	"github.com/projectdiscovery/nuclei/v3/pkg/tmplexec"
-	"github.com/projectdiscovery/nuclei/v3/pkg/utils"
 	errorutil "github.com/projectdiscovery/utils/errors"
 	stringsutil "github.com/projectdiscovery/utils/strings"
+	"github.com/scottdharvey/nuclei/v3/pkg/catalog/config"
+	"github.com/scottdharvey/nuclei/v3/pkg/js/compiler"
+	"github.com/scottdharvey/nuclei/v3/pkg/operators"
+	"github.com/scottdharvey/nuclei/v3/pkg/protocols"
+	"github.com/scottdharvey/nuclei/v3/pkg/protocols/common/generators"
+	"github.com/scottdharvey/nuclei/v3/pkg/protocols/offlinehttp"
+	"github.com/scottdharvey/nuclei/v3/pkg/templates/signer"
+	"github.com/scottdharvey/nuclei/v3/pkg/tmplexec"
+	"github.com/scottdharvey/nuclei/v3/pkg/utils"
 )
 
 var (

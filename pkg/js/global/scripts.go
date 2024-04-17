@@ -11,11 +11,11 @@ import (
 	"github.com/dop251/goja"
 	"github.com/logrusorgru/aurora"
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/nuclei/v3/pkg/js/gojs"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/utils/vardump"
-	"github.com/projectdiscovery/nuclei/v3/pkg/types"
 	errorutil "github.com/projectdiscovery/utils/errors"
 	stringsutil "github.com/projectdiscovery/utils/strings"
+	"github.com/scottdharvey/nuclei/v3/pkg/js/gojs"
+	"github.com/scottdharvey/nuclei/v3/pkg/protocols/common/utils/vardump"
+	"github.com/scottdharvey/nuclei/v3/pkg/types"
 )
 
 var (

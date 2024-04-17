@@ -5,10 +5,10 @@ import (
 
 	"github.com/Knetic/govaluate"
 
-	"github.com/projectdiscovery/nuclei/v3/pkg/operators/common/dsl"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/marker"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/replacer"
 	stringsutil "github.com/projectdiscovery/utils/strings"
+	"github.com/scottdharvey/nuclei/v3/pkg/operators/common/dsl"
+	"github.com/scottdharvey/nuclei/v3/pkg/protocols/common/marker"
+	"github.com/scottdharvey/nuclei/v3/pkg/protocols/common/replacer"
 )
 
 // Eval compiles the given expression and evaluate it with the given values preserving the return type

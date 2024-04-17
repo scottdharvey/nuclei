@@ -6,8 +6,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/projectdiscovery/nuclei/v3/pkg/catalog"
 	"github.com/projectdiscovery/retryablehttp-go"
+	"github.com/scottdharvey/nuclei/v3/pkg/catalog"
 )
 
 func IsBlank(value string) bool {

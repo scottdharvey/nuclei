@@ -12,17 +12,17 @@ import (
 	"github.com/logrusorgru/aurora"
 
 	"github.com/projectdiscovery/gologger/levels"
-	"github.com/projectdiscovery/nuclei/v3/pkg/catalog/config"
-	"github.com/projectdiscovery/nuclei/v3/pkg/catalog/disk"
-	"github.com/projectdiscovery/nuclei/v3/pkg/model"
-	"github.com/projectdiscovery/nuclei/v3/pkg/model/types/severity"
-	"github.com/projectdiscovery/nuclei/v3/pkg/output"
-	"github.com/projectdiscovery/nuclei/v3/pkg/progress"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/protocolinit"
-	protocolUtils "github.com/projectdiscovery/nuclei/v3/pkg/protocols/utils"
-	"github.com/projectdiscovery/nuclei/v3/pkg/types"
-	"github.com/projectdiscovery/nuclei/v3/pkg/utils"
+	"github.com/scottdharvey/nuclei/v3/pkg/catalog/config"
+	"github.com/scottdharvey/nuclei/v3/pkg/catalog/disk"
+	"github.com/scottdharvey/nuclei/v3/pkg/model"
+	"github.com/scottdharvey/nuclei/v3/pkg/model/types/severity"
+	"github.com/scottdharvey/nuclei/v3/pkg/output"
+	"github.com/scottdharvey/nuclei/v3/pkg/progress"
+	"github.com/scottdharvey/nuclei/v3/pkg/protocols"
+	"github.com/scottdharvey/nuclei/v3/pkg/protocols/common/protocolinit"
+	protocolUtils "github.com/scottdharvey/nuclei/v3/pkg/protocols/utils"
+	"github.com/scottdharvey/nuclei/v3/pkg/types"
+	"github.com/scottdharvey/nuclei/v3/pkg/utils"
 )
 
 // Init initializes the protocols and their configurations

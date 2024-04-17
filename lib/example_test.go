@@ -7,8 +7,8 @@ import (
 	"os"
 	"testing"
 
-	nuclei "github.com/projectdiscovery/nuclei/v3/lib"
 	"github.com/remeh/sizedwaitgroup"
+	nuclei "github.com/scottdharvey/nuclei/v3/lib"
 )
 
 // A very simple example on how to use nuclei engine

@@ -3,8 +3,8 @@ package customtemplates
 import (
 	"context"
 
-	"github.com/projectdiscovery/nuclei/v3/pkg/types"
 	errorutil "github.com/projectdiscovery/utils/errors"
+	"github.com/scottdharvey/nuclei/v3/pkg/types"
 )
 
 type Provider interface {

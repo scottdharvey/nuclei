@@ -10,18 +10,18 @@ import (
 	"github.com/pkg/errors"
 
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/nuclei/v3/pkg/fuzz"
-	"github.com/projectdiscovery/nuclei/v3/pkg/operators"
-	"github.com/projectdiscovery/nuclei/v3/pkg/operators/matchers"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/expressions"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/generators"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/protocolstate"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/http/httpclientpool"
-	httputil "github.com/projectdiscovery/nuclei/v3/pkg/protocols/utils/http"
 	"github.com/projectdiscovery/rawhttp"
 	"github.com/projectdiscovery/retryablehttp-go"
 	fileutil "github.com/projectdiscovery/utils/file"
+	"github.com/scottdharvey/nuclei/v3/pkg/fuzz"
+	"github.com/scottdharvey/nuclei/v3/pkg/operators"
+	"github.com/scottdharvey/nuclei/v3/pkg/operators/matchers"
+	"github.com/scottdharvey/nuclei/v3/pkg/protocols"
+	"github.com/scottdharvey/nuclei/v3/pkg/protocols/common/expressions"
+	"github.com/scottdharvey/nuclei/v3/pkg/protocols/common/generators"
+	"github.com/scottdharvey/nuclei/v3/pkg/protocols/common/protocolstate"
+	"github.com/scottdharvey/nuclei/v3/pkg/protocols/http/httpclientpool"
+	httputil "github.com/scottdharvey/nuclei/v3/pkg/protocols/utils/http"
 )
 
 // Request contains a http request to be made from a template

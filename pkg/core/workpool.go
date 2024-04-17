@@ -1,8 +1,8 @@
 package core
 
 import (
-	"github.com/projectdiscovery/nuclei/v3/pkg/templates/types"
 	syncutil "github.com/projectdiscovery/utils/sync"
+	"github.com/scottdharvey/nuclei/v3/pkg/templates/types"
 )
 
 // WorkPool implements an execution pool for executing different

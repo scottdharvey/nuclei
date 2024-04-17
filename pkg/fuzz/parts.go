@@ -4,11 +4,11 @@ import (
 	"io"
 	"strings"
 
-	"github.com/projectdiscovery/nuclei/v3/pkg/fuzz/component"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/expressions"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/generators"
-	"github.com/projectdiscovery/nuclei/v3/pkg/types"
 	"github.com/projectdiscovery/retryablehttp-go"
+	"github.com/scottdharvey/nuclei/v3/pkg/fuzz/component"
+	"github.com/scottdharvey/nuclei/v3/pkg/protocols/common/expressions"
+	"github.com/scottdharvey/nuclei/v3/pkg/protocols/common/generators"
+	"github.com/scottdharvey/nuclei/v3/pkg/types"
 )
 
 // executePartRule executes part rules based on type

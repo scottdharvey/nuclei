@@ -5,13 +5,13 @@ import (
 	"sync/atomic"
 
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/nuclei/v3/pkg/input/provider"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/contextargs"
-	"github.com/projectdiscovery/nuclei/v3/pkg/scan"
-	"github.com/projectdiscovery/nuclei/v3/pkg/templates"
-	"github.com/projectdiscovery/nuclei/v3/pkg/templates/types"
-	generalTypes "github.com/projectdiscovery/nuclei/v3/pkg/types"
 	syncutil "github.com/projectdiscovery/utils/sync"
+	"github.com/scottdharvey/nuclei/v3/pkg/input/provider"
+	"github.com/scottdharvey/nuclei/v3/pkg/protocols/common/contextargs"
+	"github.com/scottdharvey/nuclei/v3/pkg/scan"
+	"github.com/scottdharvey/nuclei/v3/pkg/templates"
+	"github.com/scottdharvey/nuclei/v3/pkg/templates/types"
+	generalTypes "github.com/scottdharvey/nuclei/v3/pkg/types"
 )
 
 // Executors are low level executors that deals with template execution on a target

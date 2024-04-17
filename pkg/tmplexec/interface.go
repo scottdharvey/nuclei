@@ -1,10 +1,10 @@
 package tmplexec
 
 import (
-	"github.com/projectdiscovery/nuclei/v3/pkg/scan"
-	"github.com/projectdiscovery/nuclei/v3/pkg/tmplexec/flow"
-	"github.com/projectdiscovery/nuclei/v3/pkg/tmplexec/generic"
-	"github.com/projectdiscovery/nuclei/v3/pkg/tmplexec/multiproto"
+	"github.com/scottdharvey/nuclei/v3/pkg/scan"
+	"github.com/scottdharvey/nuclei/v3/pkg/tmplexec/flow"
+	"github.com/scottdharvey/nuclei/v3/pkg/tmplexec/generic"
+	"github.com/scottdharvey/nuclei/v3/pkg/tmplexec/multiproto"
 )
 
 var (

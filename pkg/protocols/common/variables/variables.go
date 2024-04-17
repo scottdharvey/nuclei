@@ -5,13 +5,13 @@ import (
 	"strings"
 
 	"github.com/invopop/jsonschema"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/expressions"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/generators"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/interactsh"
-	protocolutils "github.com/projectdiscovery/nuclei/v3/pkg/protocols/utils"
-	"github.com/projectdiscovery/nuclei/v3/pkg/types"
-	"github.com/projectdiscovery/nuclei/v3/pkg/utils"
 	stringsutil "github.com/projectdiscovery/utils/strings"
+	"github.com/scottdharvey/nuclei/v3/pkg/protocols/common/expressions"
+	"github.com/scottdharvey/nuclei/v3/pkg/protocols/common/generators"
+	"github.com/scottdharvey/nuclei/v3/pkg/protocols/common/interactsh"
+	protocolutils "github.com/scottdharvey/nuclei/v3/pkg/protocols/utils"
+	"github.com/scottdharvey/nuclei/v3/pkg/types"
+	"github.com/scottdharvey/nuclei/v3/pkg/utils"
 )
 
 // Variable is a key-value pair of strings that can be used

@@ -6,14 +6,14 @@ import (
 	"strings"
 
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/nuclei/v3/pkg/input/formats"
-	"github.com/projectdiscovery/nuclei/v3/pkg/input/provider/http"
-	"github.com/projectdiscovery/nuclei/v3/pkg/input/provider/list"
-	"github.com/projectdiscovery/nuclei/v3/pkg/input/types"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/contextargs"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/generators"
-	configTypes "github.com/projectdiscovery/nuclei/v3/pkg/types"
 	errorutil "github.com/projectdiscovery/utils/errors"
+	"github.com/scottdharvey/nuclei/v3/pkg/input/formats"
+	"github.com/scottdharvey/nuclei/v3/pkg/input/provider/http"
+	"github.com/scottdharvey/nuclei/v3/pkg/input/provider/list"
+	"github.com/scottdharvey/nuclei/v3/pkg/input/types"
+	"github.com/scottdharvey/nuclei/v3/pkg/protocols/common/contextargs"
+	"github.com/scottdharvey/nuclei/v3/pkg/protocols/common/generators"
+	configTypes "github.com/scottdharvey/nuclei/v3/pkg/types"
 )
 
 var (

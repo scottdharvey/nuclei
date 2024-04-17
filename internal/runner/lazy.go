@@ -3,16 +3,16 @@ package runner
 import (
 	"fmt"
 
-	"github.com/projectdiscovery/nuclei/v3/pkg/authprovider/authx"
-	"github.com/projectdiscovery/nuclei/v3/pkg/catalog"
-	"github.com/projectdiscovery/nuclei/v3/pkg/catalog/loader"
-	"github.com/projectdiscovery/nuclei/v3/pkg/output"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/contextargs"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/helpers/writer"
-	"github.com/projectdiscovery/nuclei/v3/pkg/scan"
-	"github.com/projectdiscovery/nuclei/v3/pkg/types"
 	errorutil "github.com/projectdiscovery/utils/errors"
+	"github.com/scottdharvey/nuclei/v3/pkg/authprovider/authx"
+	"github.com/scottdharvey/nuclei/v3/pkg/catalog"
+	"github.com/scottdharvey/nuclei/v3/pkg/catalog/loader"
+	"github.com/scottdharvey/nuclei/v3/pkg/output"
+	"github.com/scottdharvey/nuclei/v3/pkg/protocols"
+	"github.com/scottdharvey/nuclei/v3/pkg/protocols/common/contextargs"
+	"github.com/scottdharvey/nuclei/v3/pkg/protocols/common/helpers/writer"
+	"github.com/scottdharvey/nuclei/v3/pkg/scan"
+	"github.com/scottdharvey/nuclei/v3/pkg/types"
 )
 
 type AuthLazyFetchOptions struct {

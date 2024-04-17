@@ -13,18 +13,18 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/nuclei/v3/pkg/fuzz"
-	"github.com/projectdiscovery/nuclei/v3/pkg/operators"
-	"github.com/projectdiscovery/nuclei/v3/pkg/operators/matchers"
-	"github.com/projectdiscovery/nuclei/v3/pkg/output"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/contextargs"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/interactsh"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/utils/vardump"
-	protocolutils "github.com/projectdiscovery/nuclei/v3/pkg/protocols/utils"
-	"github.com/projectdiscovery/nuclei/v3/pkg/types"
 	"github.com/projectdiscovery/retryablehttp-go"
 	urlutil "github.com/projectdiscovery/utils/url"
+	"github.com/scottdharvey/nuclei/v3/pkg/fuzz"
+	"github.com/scottdharvey/nuclei/v3/pkg/operators"
+	"github.com/scottdharvey/nuclei/v3/pkg/operators/matchers"
+	"github.com/scottdharvey/nuclei/v3/pkg/output"
+	"github.com/scottdharvey/nuclei/v3/pkg/protocols"
+	"github.com/scottdharvey/nuclei/v3/pkg/protocols/common/contextargs"
+	"github.com/scottdharvey/nuclei/v3/pkg/protocols/common/interactsh"
+	"github.com/scottdharvey/nuclei/v3/pkg/protocols/common/utils/vardump"
+	protocolutils "github.com/scottdharvey/nuclei/v3/pkg/protocols/utils"
+	"github.com/scottdharvey/nuclei/v3/pkg/types"
 )
 
 // executeFuzzingRule executes fuzzing request for a URL

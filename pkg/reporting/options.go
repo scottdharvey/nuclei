@@ -1,18 +1,18 @@
 package reporting
 
 import (
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/exporters/es"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/exporters/jsonexporter"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/exporters/jsonl"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/exporters/markdown"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/exporters/sarif"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/exporters/splunk"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/trackers/filters"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/trackers/gitea"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/trackers/github"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/trackers/gitlab"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/trackers/jira"
 	"github.com/projectdiscovery/retryablehttp-go"
+	"github.com/scottdharvey/nuclei/v3/pkg/reporting/exporters/es"
+	"github.com/scottdharvey/nuclei/v3/pkg/reporting/exporters/jsonexporter"
+	"github.com/scottdharvey/nuclei/v3/pkg/reporting/exporters/jsonl"
+	"github.com/scottdharvey/nuclei/v3/pkg/reporting/exporters/markdown"
+	"github.com/scottdharvey/nuclei/v3/pkg/reporting/exporters/sarif"
+	"github.com/scottdharvey/nuclei/v3/pkg/reporting/exporters/splunk"
+	"github.com/scottdharvey/nuclei/v3/pkg/reporting/trackers/filters"
+	"github.com/scottdharvey/nuclei/v3/pkg/reporting/trackers/gitea"
+	"github.com/scottdharvey/nuclei/v3/pkg/reporting/trackers/github"
+	"github.com/scottdharvey/nuclei/v3/pkg/reporting/trackers/gitlab"
+	"github.com/scottdharvey/nuclei/v3/pkg/reporting/trackers/jira"
 )
 
 // Options is a configuration file for nuclei reporting module

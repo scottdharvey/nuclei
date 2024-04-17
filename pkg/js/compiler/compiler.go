@@ -8,9 +8,9 @@ import (
 
 	"github.com/dop251/goja"
 
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/generators"
 	contextutil "github.com/projectdiscovery/utils/context"
 	stringsutil "github.com/projectdiscovery/utils/strings"
+	"github.com/scottdharvey/nuclei/v3/pkg/protocols/common/generators"
 )
 
 // Compiler provides a runtime to execute goja runtime

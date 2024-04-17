@@ -4,10 +4,10 @@ import (
 	"time"
 
 	"github.com/projectdiscovery/interactsh/pkg/client"
-	"github.com/projectdiscovery/nuclei/v3/pkg/output"
-	"github.com/projectdiscovery/nuclei/v3/pkg/progress"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting"
 	"github.com/projectdiscovery/retryablehttp-go"
+	"github.com/scottdharvey/nuclei/v3/pkg/output"
+	"github.com/scottdharvey/nuclei/v3/pkg/progress"
+	"github.com/scottdharvey/nuclei/v3/pkg/reporting"
 )
 
 // Options contains configuration options for interactsh nuclei integration.

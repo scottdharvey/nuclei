@@ -8,8 +8,8 @@ import (
 	"net/url"
 
 	"github.com/julienschmidt/httprouter"
-	"github.com/projectdiscovery/nuclei/v3/pkg/output"
-	"github.com/projectdiscovery/nuclei/v3/pkg/testutils"
+	"github.com/scottdharvey/nuclei/v3/pkg/output"
+	"github.com/scottdharvey/nuclei/v3/pkg/testutils"
 )
 
 const (

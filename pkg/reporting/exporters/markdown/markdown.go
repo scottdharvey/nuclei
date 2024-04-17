@@ -8,11 +8,11 @@ import (
 
 	"github.com/projectdiscovery/gologger"
 
-	"github.com/projectdiscovery/nuclei/v3/pkg/output"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/exporters/markdown/util"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/format"
 	fileutil "github.com/projectdiscovery/utils/file"
 	stringsutil "github.com/projectdiscovery/utils/strings"
+	"github.com/scottdharvey/nuclei/v3/pkg/output"
+	"github.com/scottdharvey/nuclei/v3/pkg/reporting/exporters/markdown/util"
+	"github.com/scottdharvey/nuclei/v3/pkg/reporting/format"
 )
 
 const indexFileName = "index.md"

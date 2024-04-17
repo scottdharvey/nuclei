@@ -5,14 +5,14 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/nuclei/v3/pkg/input/formats"
-	"github.com/projectdiscovery/nuclei/v3/pkg/input/formats/burp"
-	"github.com/projectdiscovery/nuclei/v3/pkg/input/formats/json"
-	"github.com/projectdiscovery/nuclei/v3/pkg/input/formats/openapi"
-	"github.com/projectdiscovery/nuclei/v3/pkg/input/formats/swagger"
-	"github.com/projectdiscovery/nuclei/v3/pkg/input/formats/yaml"
-	"github.com/projectdiscovery/nuclei/v3/pkg/input/types"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/contextargs"
+	"github.com/scottdharvey/nuclei/v3/pkg/input/formats"
+	"github.com/scottdharvey/nuclei/v3/pkg/input/formats/burp"
+	"github.com/scottdharvey/nuclei/v3/pkg/input/formats/json"
+	"github.com/scottdharvey/nuclei/v3/pkg/input/formats/openapi"
+	"github.com/scottdharvey/nuclei/v3/pkg/input/formats/swagger"
+	"github.com/scottdharvey/nuclei/v3/pkg/input/formats/yaml"
+	"github.com/scottdharvey/nuclei/v3/pkg/input/types"
+	"github.com/scottdharvey/nuclei/v3/pkg/protocols/common/contextargs"
 )
 
 // HttpMultiFormatOptions contains options for the http input provider

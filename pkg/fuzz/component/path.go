@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/pkg/errors"
-	"github.com/projectdiscovery/nuclei/v3/pkg/fuzz/dataformat"
 	"github.com/projectdiscovery/retryablehttp-go"
+	"github.com/scottdharvey/nuclei/v3/pkg/fuzz/dataformat"
 )
 
 // Path is a component for a request Path
